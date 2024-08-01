@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="bg-[url('bg.jpg')] bg-cover">
+    
+      <h1 class="text-3xl text-center font-black m-5">Welcome to My Website</h1>
+      <div class="text-2xl mb-10 flex justify-evenly items-center "><a href="#" class="mr-5 underline ml-5 hover:font-bold">Home</a>
+      <a href="#target" class="mr-5 hover:font-bold underline ">Projects</a> <a href="#target" class="mr-5 hover:font-bold underline ">Skills</a><a href="#target2" class="mr-5 hover:font-bold underline ">Contact Me</a></div>
+      <div class="intro  flex justify-evenly items-center box max-lg:p-4 border-2 text-2xl rounded  text-center hover:shadow-2xl  h-full pb-6 pt-8 pl-2  bg-stone-100">
+     <div class="text-left">   Hello I am <span class="font-bold">Kanupriya Sharma</span> , a second-year B.Tech
+        student at DJ Sanghvi College of Engineering. Welcome to my personal
+        website, where I share my journey, projects, and insights into the
+        fascinating world of technology and engineering.<ul class="list-disc pl-10 ">
+          <li>
+            Gained
+            9.57 CGPA in First year.
+          </li>
+          <li>
+            Enthusiastic about AI, Machine Learning,
+            Web Development and App Development.
+          </li>
+          <li>Always eager to explore new concepts and ideas.</li>
+        </ul>    
+        I am a co-committee member of the Events Department at DJS Express, the Public Speaking Club of our college. I collaborate with team members to create engaging activities and workshops that enhance public speaking skills.
+      </div><div class=" bg-[url('BG2.jpeg')] rounded-3xl bg-cover h-96 w-full"></div></div>
+      <div class="flex justify-evenly items-center m-10 max-md:flex-wrap " id="target">
+      
+      <div class="projects ml-10 max-md:p-8 p-4 rounded-s-3xl w-1/2 text-center hover:shadow-2xl flex-grow   border-black border-2">
+        
+          <img src="pic1.jpg" class=" h-96 w-full"/>
+          <p> 
+              <p class="font-bold text-2xl">Projects</p><ul class="list-disc pl-2 text-lg">
+              <li>Made Simon Says,Rock Paper Scissors Game using HTML,CSS,JavaScript</li>
+              <li>
+                Build
+                a clone of Amazon website using HTML,CSS
+              </li>          <li>
+                Made a Weather Fetching Website using API
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div class="skills m-10 box  max-md:p-8 rounded-s-3xl w-1/2 text-center hover:shadow-2xl p-4 border-black border-2">
+          <img src="pic2.png" class="h-full w-full"/>
+          <p>
+              <p class="font-bold text-2xl">Skills</p><ul class="list-disc pl-2 text-lg">
+                  <li>Programming Languages: C, Java, Python, JavaScipt</li>
+                  <li class="break-words">
+                    Libraries and Frameworks: CSS,
+                    HTML,Tailwind,Bootstrap,Express
+                  </li>
+                </ul>
+          </p>
+        </div></div>
+        <div class="contact flex items-center justify-center mt-12 hover:shadow-2xl text-lg font-bold" id="target2">
+          <div class="text-center">
+            I'm always open to connecting with tech enthusiasts,
+            professionals, and anyone interested in collaborating on exciting
+            projects. Feel free to reach out through the contact form below.
+          </div>
+        </div>     
+    <div class="contactme  h-screen flex items-start justify-center mt-8 max-lg:p-4 ">
+        <form class="flex flex-col justify-evenly items-center border-2 border-black rounded hover:shadow-2xl p-4 w-full max-w-lg">
+      <p class="font-bold">Conatct Me!!<br></p>
+      <label for="name"> <p class="font-bold">Name:</p></label><input
+        type="text" id="name"
+        placeholder="Enter your name"
+        class="bg-slate-200 text-center w-full my-4 py-2 rounded border-2 border-black hover:shadow-2xl"
+      /><label for="email"> <p class="font-bold">Email:</p></label>
+      <input id="email" placeholder="Enter your email" type="text" class="bg-slate-200 text-center w-full my-4 py-2 rounded border-2 border-black hover:shadow-2xl" />
+      <label for="message"> <p class="font-bold">Message:</p></label>
+      <textarea if="message"
+        placeholder="Enter your message"
+        class="bg-slate-200 text-center w-full my-4 py-2 rounded border-2 border-black hover:shadow-2xl; w-64 h-32"
+      ></textarea>
+      <button id="btn" class="bg-slate-200 text-center w-full my-4 py-2 rounded border-2 border-black hover:shadow-2xl; bg-black "><p class="font-bold">Submit</p></button>
+    <p id="para"></p>
+    </form> 
+ </div>
+ <script src="https://cdn.tailwindcss.com"></script>
+ <script src="app.js"></script>
+  </body>
+</html>
